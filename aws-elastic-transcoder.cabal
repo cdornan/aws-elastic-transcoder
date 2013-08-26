@@ -1,7 +1,7 @@
 Name:                aws-elastic-transcoder
-Version:             0.0.0.1
+Version:             0.1.0.0
 Synopsis:            Haskell suite for the Elastic Transcoder service
-Description:         This suite extends the aws suite for the Amazon Web Services (AWS) to interface the AWS Elastic Transcoder service for transcoding video. Providing this package as an extension is en experiment -- it may be integrated into the main package.
+Description:         This suite extends the aws suite for the Amazon Web Services (AWS) to interface the AWS Elastic Transcoder service for transcoding video.
 Homepage:            http://github.com/iconnect/aws-elastic-transcoder
 License:             BSD3
 License-file:        LICENSE
@@ -16,7 +16,7 @@ Cabal-version:       >=1.14
 Source-repository this
     type:           git
     location:       https://github.com/iconnect/aws-elastic-transcoder.git
-    tag:            0.0.0.1
+    tag:            0.1.0.0
 
 Source-repository head
     type:           git
@@ -66,13 +66,13 @@ Test-Suite ets-json
     type:          detailed-0.9
     test-module:   Aws.ElasticTranscoder.Json.Test
     Build-depends:
-        Cabal                >= 1.9.2,
-        QuickCheck           >= 2.5.1,
-        aeson                >= 0.6.1,
-        base                 == 4.*,
-        containers           >= 0.4,
-        regex-compat         >= 0.95,
-        safe                 >= 0.3.3,
+        Cabal                >= 1.9.2               ,
+        QuickCheck           >= 2.5.1               ,
+        aeson                >= 0.6.1               ,
+        base                 == 4.*                 ,
+        containers           >= 0.4                 ,
+        regex-compat         >= 0.95                ,
+        safe                 >= 0.3.3               ,
         text                 >= 0.11
 
     Other-modules:
